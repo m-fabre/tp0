@@ -21,6 +21,10 @@ footer ul{
     color: #474644;
 }
 
+img{
+    width: 100%;
+}
+
 .grilla{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -38,3 +42,10 @@ footer{
     grid-column-end: span 12;
 }
 
+img{
+    width: 100%;
+}
+
+span{
+    grid-column-end: span 4;
+}
