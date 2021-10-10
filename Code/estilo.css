@@ -20,3 +20,21 @@ footer ul{
     font-family: 'Mulish', sans-serif;
     color: #474644;
 }
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+    grid-column-end: span 12;
+}
+
+nav{
+    grid-column-end: span 12;
+}
+
+footer{
+    grid-column-end: span 12;
+}
+
