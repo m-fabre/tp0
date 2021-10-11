@@ -1,5 +1,6 @@
 *{
-    background-color: #f7f4f1;
+    background-color: #f2efee;
+
 }
 header h1{
     text-align: center;
@@ -9,16 +10,31 @@ header h1{
 }
 nav a{
     font-family: 'Mulish', sans-serif;
-    font-size: 1em;
-    text-decoration: none;;
-    color: #474644;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #5f5955;
+    text-align: left;
+    padding-right: 0.2em;
 }
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    color: #5f5955;
+    text-align: left;
+
+}
+
 
 footer ul{
     text-align: center;
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
-    color: #474644;
+    color: #5f5955;
+}
+
+#icon{    
+    padding-right: 1em;
 }
 
 img{
