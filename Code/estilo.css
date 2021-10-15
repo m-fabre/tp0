@@ -25,6 +25,12 @@ p{
 
 }
 
+.title{
+    font-family: 'DM Serif Text', serif;
+    font-size: 3em;
+    color: #5f5955;
+    text-align: center;
+}
 
 footer ul{
     text-align: center;
