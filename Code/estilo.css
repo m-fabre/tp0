@@ -33,8 +33,9 @@ p{
 }
 
 footer ul{
+    list-style: none;
+    padding:0px;
     text-align: center;
-    list-style-type: none;
     font-family: 'Mulish', sans-serif;
     color: #5f5955;
 }
