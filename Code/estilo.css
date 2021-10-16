@@ -26,10 +26,14 @@ p{
 }
 
 .title{
-    font-family: 'DM Serif Text', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 3em;
     color: #5f5955;
     text-align: center;
+}
+
+.title h2{
+    font-weight: 300;
 }
 
 footer ul{
