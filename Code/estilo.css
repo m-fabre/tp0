@@ -17,14 +17,6 @@ nav a{
     padding-right: 0.2em;
 }
 
-p{
-    font-family: 'Mulish', sans-serif;
-    font-size: 1em;
-    color: #5f5955;
-    text-align: left;
-
-}
-
 .title{
     font-family: 'DM Serif Display', serif;
     font-size: 3em;
@@ -34,6 +26,14 @@ p{
 
 .title h2{
     font-weight: 300;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    color: #5f5955;
+    text-align: left;
+
 }
 
 footer ul{
@@ -46,10 +46,6 @@ footer ul{
 
 #icon{    
     padding-right: 1em;
-}
-
-img{
-    width: 100%;
 }
 
 .grilla{
@@ -72,7 +68,6 @@ footer{
 img{
     width: 100%;
 }
-
-span{
+main{
     grid-column-end: span 4;
 }
