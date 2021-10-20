@@ -75,3 +75,34 @@ main{
     margin: 4%;
     margin-bottom: 2%;
 }
+
+.info{
+    text-align: center;
+}
+
+@media (max-width: 480px){ 
+/* 320- 480px: mobile devices */
+    .container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+/* 481- 768px: ipads, tablets */
+    .container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    /* 1025- 1200px: desktops, large screens */
+    .container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+}
