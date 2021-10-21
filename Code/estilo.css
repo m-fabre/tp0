@@ -8,12 +8,17 @@ header h1{
     font-size: 3.5em;
     color: #181817;
 }
+
+nav{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 nav a{
     font-family: 'Mulish', sans-serif;
     font-size: 1.1em;
     text-decoration: none;
     color: #5f5955;
-    text-align: left;
     padding-right: 0.2em;
 }
 
@@ -74,13 +79,14 @@ main{
     grid-column-end: span 12;
     margin: 4%;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .info{
     text-align: center;
 }
 
-@media /*only screen and (min-width: 1025px) and */(max-width: 1200px){
+@media (max-width: 1200px){
     /* 1025- 1200px: desktops, large screens */
     .container{
         position: relative;
@@ -101,7 +107,7 @@ main{
     }
 }
 
-@media /*only screen and (min-width: 481px) and */(max-width: 768px) {
+@media (max-width: 768px) {
 /* 481- 768px: ipads, tablets */
     .container{
         position: relative;
@@ -129,6 +135,10 @@ main{
         overflow: hidden;
         width: 100%;
     }
+
+   nav{
+       text-align: center;
+   }
 
     nav a{
         font-size: 1em;
