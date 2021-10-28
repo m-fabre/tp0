@@ -39,6 +39,16 @@ a{
 
 .title h2{
     font-weight: 300;
+    margin-bottom: 3%;
+    margin-top: 6%%;
+}
+
+h2:hover{
+    color: #cbc3bd;
+}
+
+h2{
+    transition: color 0.3s linear 0.1s;
 }
 
 p{
@@ -155,5 +165,9 @@ main{
 
     nav a{
         font-size: 1em;
+    }
+
+    img{
+        margin-top: 6%;
     }
 }
